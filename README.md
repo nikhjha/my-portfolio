@@ -11,7 +11,7 @@ This repository contains the following components:
 ```
 .
 ├── frontend/        # Angular project directory
-├── sanity-project/  # Sanity CMS project directory
+├── studio-my-portfolio/  # Sanity CMS project directory
 ├── my-portfolio.code-workspace  # VS Code workspace file
 └── README.md        # Documentation file
 ```
@@ -46,10 +46,10 @@ Access the application at `http://localhost:4200`.
 
 ### 2. Sanity Project Setup
 
-Navigate to the `sanity-project` directory and install dependencies:
+Navigate to the `studio-my-portfolio` directory and install dependencies:
 
 ```bash
-cd sanity-project
+cd studio-my-portfolio
 npm install
 ```
 
@@ -74,7 +74,7 @@ This workspace includes settings for both the Angular and Sanity projects to sim
 ## Development Workflow
 
 1. Make changes to the frontend in the `frontend` directory.
-2. Update or manage content in the `sanity-project` directory.
+2. Update or manage content in the `studio-my-portfolio` directory.
 3. Use the VS Code workspace to switch between projects easily.
 
 ## Additional Resources
