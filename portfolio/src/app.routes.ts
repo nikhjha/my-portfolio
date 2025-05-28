@@ -1,10 +1,17 @@
 import { RouteObject } from "react-router";
-import HomePage from "./pages";
+import BaseLayout from "./pages/BaseLayout";
+import HomePage from "./pages/HomePage";
 
 const appRoutes: RouteObject[] = [
   {
     path: "/",
-    Component: HomePage,
+    Component: BaseLayout,
+    children: [
+      {
+        index: true,
+        Component: HomePage,
+      },
+    ],
   },
 ];
 
