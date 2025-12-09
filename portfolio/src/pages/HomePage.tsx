@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import TypeIt from "typeit-react";
 
 function HomePage() {
   return (
@@ -6,8 +7,16 @@ function HomePage() {
       <div className="w-[40rem] p-4 flex flex-col gap-8">
         <h1 className="text-4xl font-bold">Hey</h1>
         <h1 className="text-4xl font-bold">
-          I'm 
-          {/* <Typewriter styles="text-primary" text="Nikhilkumar Madan Jha" /> */}
+          I'm{" "}
+          <span className="text-primary">
+            <TypeIt
+            options={{
+              strings: ["Nikhilkumar Madan Jha "],
+              speed: 250,
+              waitUntilVisible: true,
+            }}
+          />
+          </span>
         </h1>
         <div>
           <p className="text-lg font-bold mb-2">A Bit About me</p>
