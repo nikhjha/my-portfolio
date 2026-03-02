@@ -1,4 +1,4 @@
-import Navbar from "@/components/ui/Navbar";
+import Navbar from "@/components/navbar/navbar";
 import { Outlet } from "react-router";
 
 export default function BaseLayout() {

@@ -1,5 +1,5 @@
 import { SanityDocument } from "@sanity/client";
-import { sanityClient } from "../lib/sanity.client";
+import { sanityClient } from "../../lib/sanity.client";
 
 const GET_RESUME_QUERY = `*[
     _type == "resume"

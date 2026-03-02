@@ -1,5 +1,3 @@
-import { ModeToggle } from "./mode-toggle";
-
 function Navbar() {
   return (
     <div className="p-4 flex items-center">
@@ -10,9 +8,7 @@ function Navbar() {
           className="w-[2rem]"
         />
       </div>
-      <div className="ms-auto">
-        <ModeToggle />
-      </div>
+      <div className="ms-auto"></div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { RouteObject } from "react-router";
-import BaseLayout from "./pages/BaseLayout";
-import HomePage from "./pages/HomePage";
+import BaseLayout from "./app/base.layout";
+import HomePage from "./app/portfolio/home.page";
 
 const appRoutes: RouteObject[] = [
   {
